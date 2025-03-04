@@ -1,0 +1,30 @@
+name: Bassify
+description: "This is not just a music player, but a tool for true connoisseurs of high-quality sound."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  device_preview: ^1.0.0
+  just_audio: ^0.9.36
+  http: ^1.3.0
+  provider: ^6.0.5 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
